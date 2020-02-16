@@ -27,11 +27,11 @@ export default ({ data }) => {
               </div>
             </section>
             <div className="container mx-auto">
-              <section className="headLine">
-              <h2>Headline</h2>
-              <p>Subhead line</p>
-            </section>
-              <section className="productList p-24 flex flex-wrap items-center justify-center">
+              <section className="headLine mb-20 pr-40 pl-40 text-center">
+                <h2 className="font-serif text-4xl">Donec viverra est nisi, nec iaculis nisi.</h2>
+                <p className="font-serif text-2xl">Phasellus vulputate tellus et pulvinar facilisis. Integer eros urna, interdum a lacus eget, porta sodales lorem. Donec orci sem, rutrum a interdum dapibus, fringilla non nibh. Vivamus tempor faucibus erat ut suscipit.</p>
+              </section>
+              <section className="productList flex flex-wrap items-center justify-center">
                 <article>Article</article>
                 <article>Article</article>
                 <article>Article</article>
