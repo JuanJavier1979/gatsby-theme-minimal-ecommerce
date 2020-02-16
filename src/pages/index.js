@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import Article from "../components/article";
 
 import '../scss/global.scss'
 
@@ -31,14 +32,13 @@ export default ({ data }) => {
                 <h2 className="font-serif text-4xl">Donec viverra est nisi, nec iaculis nisi.</h2>
                 <p className="font-serif text-2xl">Phasellus vulputate tellus et pulvinar facilisis. Integer eros urna, interdum a lacus eget, porta sodales lorem. Donec orci sem, rutrum a interdum dapibus, fringilla non nibh. Vivamus tempor faucibus erat ut suscipit.</p>
               </section>
-              <section className="productList flex flex-wrap items-center justify-center">
-                <article>Article</article>
-                <article>Article</article>
-                <article>Article</article>
-                <article>Article</article>
-                <article>Article</article>
-                <article>Article</article>
-                <article>Article</article>
+              <section className="productList flex flex-wrap">
+                <Article />
+                <Article />
+                <Article />
+                <Article />
+                <Article />
+                <Article />
               </section>
             </div>
           </main>
