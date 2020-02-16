@@ -32,7 +32,7 @@ export default ({ data }) => {
                 <h2 className="font-serif text-4xl">Donec viverra est nisi, nec iaculis nisi.</h2>
                 <p className="font-serif text-2xl">Phasellus vulputate tellus et pulvinar facilisis. Integer eros urna, interdum a lacus eget, porta sodales lorem. Donec orci sem, rutrum a interdum dapibus, fringilla non nibh. Vivamus tempor faucibus erat ut suscipit.</p>
               </section>
-              <section className="productList flex flex-wrap">
+              <section className="productList flex flex-wrap mb-20">
                 <Article />
                 <Article />
                 <Article />
@@ -42,7 +42,16 @@ export default ({ data }) => {
               </section>
             </div>
           </main>
-          <footer>Footer</footer>
+          <footer className="border-t">
+            <div class="container mx-auto py-6 flex flex-wrap md:flex-no-wrap justify-between items-center text-sm">
+              <div>Created by <a href="https://juanjavier.blog" class="text-black">JuanJavier1979</a></div>
+              <div class="pt-4 md:p-0 text-center md:text-right text-xs">
+                <a href="#" class="text-black no-underline hover:underline">Terms &amp; Conditions</a>
+                <a href="#" class="text-black no-underline hover:underline ml-4">Privacy Policy</a>
+                <a href="#" class="text-black no-underline hover:underline ml-4">Cookie Policy</a>
+              </div>
+            </div>
+          </footer>
         </div>
   )
 }
