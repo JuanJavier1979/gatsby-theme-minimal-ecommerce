@@ -10,8 +10,9 @@ const Article = () => (
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
         </p>
       </div>
-      <div className="px-6 py-4">
+      <div className="flex justify-between px-6 py-4">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$25.00</span>
+        <button className="transition-colors duration-150 ease-in-out bg-black hover:bg-white text-sm text-white hover:text-black border border-black rounded-full px-3 py-1 shadow">Add to cart</button>
       </div>
     </div>
   </div>
