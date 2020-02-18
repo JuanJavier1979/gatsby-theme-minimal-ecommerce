@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import Header from "../components/header";
+import Footer from "../components/footer";
 import Article from "../components/article";
 
 import '../scss/global.scss'
@@ -8,16 +10,7 @@ import '../scss/global.scss'
 export default ({ data }) => {
   return (
     <div className="main-layout flex flex-col min-h-screen text-gray-900">
-          <header className="absolute w-full z-50">
-            <nav className="container mx-auto sm:flex justify-between p-8 items-center text-center md:text-left">
-              <a href="#" className="font-sans text-white">Gatsby Ecommerce Theme</a>
-              <ul className="list-reset flex justify-center md:justify-end pt-4 sm:pt-0">
-                <li><a href="#" className="text-white p-2 md:p-4">Shop</a></li>
-                <li><a href="#" className="text-white p-2 md:p-4">About</a></li>
-                <li><a href="#" className="text-white p-2 md:p-4">Contact</a></li>
-              </ul>
-            </nav>
-          </header>
+          <Header />
           <main className="flex flex-1 flex-col z-40">
             <section className="hero h-screen md:h-auto relative mb-20">
               <Img fluid={data.file.childImageSharp.fluid} objectFit="cover" objectPosition="50% 50%" className="h-screen md:h-auto" alt="" />
@@ -42,16 +35,7 @@ export default ({ data }) => {
               </section>
             </div>
           </main>
-          <footer className="border-t">
-            <div className="container mx-auto py-6 px-4 lg:px-0 flex flex-wrap md:flex-no-wrap justify-between items-center text-sm">
-              <div>Created by <a href="https://juanjavier.blog" className="text-black">JuanJavier1979</a></div>
-              <div className="pt-4 md:pt-0 text-center md:text-right text-xs">
-                <a href="#" className="text-black no-underline hover:underline">Terms &amp; Conditions</a>
-                <a href="#" className="text-black no-underline hover:underline ml-4">Privacy Policy</a>
-                <a href="#" className="text-black no-underline hover:underline ml-4">Cookie Policy</a>
-              </div>
-            </div>
-          </footer>
+          <Footer />
         </div>
   )
 }
