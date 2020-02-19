@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./button";
 
 const Article = () => (
   <div className="w-full md:w-1/2 lg:w-1/4 overflow-hidden">
@@ -12,7 +13,7 @@ const Article = () => (
       </div>
       <div className="flex justify-between px-6 py-4">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$25.00</span>
-        <button className="transition-colors duration-150 ease-in-out bg-black hover:bg-white text-sm text-white hover:text-black border border-black rounded-full px-3 py-1 shadow">Add to cart</button>
+        <Button />
       </div>
     </div>
   </div>
