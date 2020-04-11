@@ -3,7 +3,7 @@ import Button from "./button";
 
 const Article = () => (
   <div className="w-full md:w-1/2 lg:w-1/4 overflow-hidden">
-    <div className="w-full p-4">
+    <div className="w-full px-4 pb-4">
       <img className="w-full" src="https://via.placeholder.com/385x235" alt="alt text" />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">Product name</div>

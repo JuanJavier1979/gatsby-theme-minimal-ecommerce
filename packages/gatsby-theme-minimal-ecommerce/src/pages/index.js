@@ -14,7 +14,7 @@ export default ({ data }) => {
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
           <h1 className="font-serif text-6xl leading-none">New Collection 2020</h1>
           <p className="text-3xl mb-10">Lorem ipsum dolor sit amet.</p>
-          <button className="transition-colors duration-150 ease-in-out bg-transparent hover:bg-white text-white hover:text-black border border-white rounded pt-2 pb-2 pl-4 pr-4 shadow">Shop collection</button>
+          <button className="transition-colors duration-150 ease-in-out bg-white hover:bg-transparent text-black hover:text-white border border-white rounded pt-2 pb-2 pl-4 pr-4 shadow">Shop collection</button>
         </div>
       </section>
       <div className="container mx-auto">
