@@ -1,5 +1,9 @@
 # Gatsby Theme Minimal E-Commerce
 
+## IMPORTANT WARNING
+This theme is still in early development stage and not intended for use in production.
+
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
